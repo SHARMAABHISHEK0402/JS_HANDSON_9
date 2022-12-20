@@ -1,0 +1,14 @@
+.mainFlex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.flexBox{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 1em;
+}
+#big{
+    font-size: 40px;;
+}

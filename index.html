@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dom</title>
+  </head>
+  <body>
+    <p id="big"><b >DOM Handson</b></p>
+    <hr />
+    <h3>1.Write the code to access element which is having id as "text"</h3>
+    <pre>
+        <p id="text">this is id text</p>
+    </pre>
+    <hr />
+    <h3>2.Write the code to access element which is having tag as "h1"</h3>
+
+    <h1>helllo i am a h1 tag.</h1>
+    <hr />
+    <h3>3.Write the code to access element which is having class as "box"</h3>
+
+    <div class="box"></div>
+    <hr />
+    <h2>
+      4. Change the heading from ""Hello"" to ""Hello World"" using DOM
+      functions
+    </h2>
+    <h1 id="change">Hello</h1>
+    <hr />
+    <h3>
+      5.Create three cards on HTML page and arrange them using flex property in
+      row or horizontal direction and also create button at the bottom named
+      "Change Flex direction". When user clicks on this button, the cards
+      arrangement should be changed to vertical direction.
+    </h3>
+    <button id="dir">change-direction</button>
+    <div class="mainFlex">
+      <div class="flexBox"></div>
+      <div class="flexBox"></div>
+      <div class="flexBox"></div>
+    </div>
+    <hr />
+    <h3>6.window and document</h3>
+    <p>
+      <b>Window object :</b> It is the top most object and outermost element of
+      the object hierarchy. The window object represents a window/tab containing
+      a DOM document where as document object is property of window object that
+      points to the DOM document loaded in that window.
+    </p>
+    <p>
+      <b>document object :</b>JavaScript Document object is an object that
+      provides access to all HTML elements of a document. When an HTML document
+      is loaded into a browser window, then it becomes a document object. The
+      document object stores the elements of an HTML document, such as HTML,
+      HEAD, BODY, and other HTML tags as objects.
+    </p>
+    <hr />
+    <h3>
+      7.Add one style attribute and give text color as red and id attribute and
+      give the id value as ""heading"" in the above given h1 tag using DOM
+      functions"
+    </h3>
+    <h1>Hello i got id as heading and color red by js only</h1>
+    <hr>
+<h3>8.Create an HTML page having content as Hello world and a button named Replace Text. When user will click on this button page content should be changed to "Welcome to Elevation academy"</h3>
+    <h2 class="" id="chngtext">Hello World</h2>
+    <button id="chngbtn">change text</button>
+<hr>
+<h3>9.Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second</h3>
+    <div>
+      <span id="hh">00:</span>
+
+      <span id="mm">00:</span>
+
+      <span id="ss">00</span>
+    </div>
+    <hr />
+    <h3>10.Create a select drop down for selecting Year 20-21, 21-22 etc. Print the item text selected</h3>
+    <label for="years">Slect years</label>
+    <select name="years" id="years">
+      <option value="1">20-21</option>
+      <option value="2">21-22</option>
+    </select>
+    <div >
+      <div><button id="selBtn">Click Me</button></div>
+      <div id="selValue"></div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
